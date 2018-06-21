@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Plot Graph</title>
+	<link rel="stylesheet" type="text/css" href="g.css">
+	<script type="text/javascript" src="g.js"></script>
+</head>
+<body onload="strtG()">
+	<h1>Read Points and Plot Graph</h1>
+	<div id="grph">
+		<canvas id="graphics" width="501" height="501"></canvas>
+	</div>
+	<button id="rbtn" onclick="reloadPage()">Refresh</button><br />
+	<input type="file" id="fip" />
+	<div id="con">File Status: NIL</div>
+	<button id="pbtn" disabled="true" onclick="makeGraph()">Plot</button>
+</body>
+</html>

@@ -1,0 +1,8 @@
+#grph{
+	width: 501px;
+	height: 501px;
+	border: 1px solid red;
+	float: left;
+	/*margin-left: auto;
+	margin-right: auto;*/
+}
